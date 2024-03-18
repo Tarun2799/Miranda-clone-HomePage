@@ -9,3 +9,40 @@ html,body{
     width: 100%;
 }
 
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #c4bcb3;
+    position: relative;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+#nav img{
+    height: 32px;
+    width: 30%;
+    cursor: pointer;
+}
+
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+    cursor: default;
+}
+
+#nav span{
+    width: 30%;
+    text-align: right;
+    cursor: pointer;
+}
+
