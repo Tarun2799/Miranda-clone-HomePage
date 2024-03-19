@@ -21,6 +21,7 @@ html,body{
     width: 100vw;
     background-color: #c4bcb3;
     position: relative;
+    overflow-x: hidden;
 }
 
 #nav{
@@ -179,4 +180,16 @@ html,body{
 #image-div:hover img{
     scale: 1.1;
     /* ye prop element ke size par kam krti hai */
+}
+
+#page1 h1{
+    font-size: 67vh;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    line-height: 500px;
+    width: 96%;
+    margin-left: 1.6%;
+    padding-left: 15px;
 }
