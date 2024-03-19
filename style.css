@@ -22,11 +22,14 @@ html,body{
 }
 
 #page1{
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #c4bcb3;
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    /* page-2 was not visible, so changed this */
+    overflow: hidden;
+    /* we did this to remove default scroller */
 }
 
 #nav{
