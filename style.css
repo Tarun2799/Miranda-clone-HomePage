@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
 }
 
 html,body{
@@ -22,7 +23,7 @@ html,body{
 }
 
 #page1{
-    height: 110vh;
+    height: 130vh;
     width: 100vw;
     background-color: #c4bcb3;
     position: relative;
@@ -202,4 +203,66 @@ html,body{
     width: 96%;
     margin-left: 1.6%;
     padding-left: 15px;
+}
+
+#page2{
+    height: 170vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+     /*ye maine khud try kiya to check scroller working fine or nots */
+    padding: 70px 40px;
+}
+
+#page2-left{
+    /* isse, isne parent ki height leli */
+    height: 100%;
+    width: 40%;
+    padding-right: 40px;
+    background-color: red;
+}
+
+#page2-left h2{
+    font-size: 100px;
+    font-family: canopee;
+    text-align: center;
+    line-height: 150px;
+    font-weight: 100;
+}
+
+#page2-left h2 span{
+    font-size: 180px;
+    font-weight: 600;
+}
+
+#page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left p{
+    font-family: domaine;
+    font-size: 23px;
+    color: #2c2c2c;
+    margin-top: 20px;
+}
+
+#page2-left p span{
+    display: inline-block;
+    position: relative;
+    margin-right: 5px; 
+    /* margin-bottom: 5px;  */
+    font-size: 40px;
+    text-align: center;
+    width: 30px;
+    background-color: #222;
+    color: #c4bcb3;
+}
+
+#page2-right{
+    height: 100%;
 }
