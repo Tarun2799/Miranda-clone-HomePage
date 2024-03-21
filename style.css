@@ -220,9 +220,10 @@ html,body{
 #page2-left{
     /* isse, isne parent ki height leli */
     height: 100%;
-    width: 40%;
+    width: 35%;
     padding-right: 40px;
-    background-color: red;
+    /* background-color: red; */
+    border-right: 1px solid #222;
 }
 
 #page2-left h2{
@@ -259,10 +260,28 @@ html,body{
     font-size: 40px;
     text-align: center;
     width: 30px;
-    background-color: #222;
+    background-color: #707070;
     color: #c4bcb3;
 }
 
 #page2-right{
     height: 100%;
+    width:65%;
+    /* background-color: rebeccapurple; */
+    padding: 0 4.5rem;
+    
+}
+
+#page2-right img{
+    height: 53%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-right h1{
+    font-family: canopee;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin-top: 25px;
 }
