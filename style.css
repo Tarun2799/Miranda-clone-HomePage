@@ -285,3 +285,26 @@ html,body{
     letter-spacing: -1px;
     margin-top: 25px;
 }
+
+#page3{
+    height: 55vh;
+    background-color: #c4bcb3;
+    display: flex;
+}
+
+#page3 h1{
+    font-size: 24rem;
+    margin-left: 1rem;
+    padding-left: 3.5rem;
+    font-weight: 600;
+    width: 75%;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    font-family: canopee;
+}
+
+#page3 img{
+    height: 85%;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
