@@ -308,3 +308,112 @@ html,body{
     margin-left: 2rem;
     margin-top: 1.5rem;
 }
+
+#page4{
+    height: 150vh;
+    background-color: #c4bcb3;
+}
+
+#page4-left{
+    width: 65%;
+    border-right: 2px solid #707070;
+
+    /* height: 100vh; */
+}
+
+#page4-left-top{
+    padding-top: 2rem;
+    height: 60vh;
+    /* background-color: aqua; */
+}
+
+#p4-elems{
+    height: 26rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+}
+
+#p4-elem1{
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(51, 0, 255); */
+    padding: 20px 30px;
+    text-align: start;
+    border-right: 2px solid #707070;
+    /* border-left: 2px solid #707070; */
+}
+
+#p4-elem1 h2{
+    font-family: canopee;
+    font-size: 5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /* border-bottom: 10px; */
+}
+
+#p4-elem1 h3{
+    font-family: domaine;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #292929;
+    margin: 25px 0;
+}
+
+#p4-elem1 h6{
+    font-family: domaine;
+    font-size: 18px;
+    font-weight: 100;
+    color: #292929;
+}
+
+#p4-elem2{
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 100%;
+    margin-left: 2rem;
+    
+}
+
+#p4-elem2 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    /* agar hidden nahi lagega, to zoom in effect par, image bahar aajayegi, image-div se */
+    border: 2px solid #262626;
+}
+
+#p4-elem2 h4{
+    font-size: 24px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#p4-elem2 h4 span{
+    background-color: #B83C12;
+    color: #c4bcb3;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+#p4-elem2 p{
+    font-size: 20px;
+    font-family: domaine;
+    font-weight: 100;
+    color: #676767;
+}
+
+#page4-left-bottom{
+    height: 85vh;
+    /* background-color: #B83C12; */
+}
+#page4-left-bottom img{
+    margin-left: 3.5rem;
+    width: 85%;
+
+}
