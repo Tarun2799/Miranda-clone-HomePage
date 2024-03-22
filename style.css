@@ -86,7 +86,7 @@ html,body{
     width: 100%;
     overflow: hidden;
     /* agar hidden nahi lagega, to zoom in effect par, image bahar aajayegi, image-div se */
-    border: 5px solid #262626;
+    border: 2px solid #262626;
 }
 
 #elem1 h4{
@@ -489,4 +489,71 @@ html,body{
 
 #oval:hover h1{
     transform: translateX(100%);
+}
+
+#page6{
+    height: 100vh;
+    background-color: #c4bcb3;
+}
+
+#page6-top{
+    height: 55%;
+    margin: 0 5rem;
+    /* border-bottom: 1px solid #676767; */
+    border-top: 1px solid #676767;
+}
+
+#page6-bottom{
+    padding: 2rem 0;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 2rem;
+    border-top: 1px solid #2c2c2c;
+    border-bottom: 1px solid #2c2c2c;
+    /* abhi bhi, scrolling nahi chalegi kyunki locomotive se band kar rakhi , to let's on */
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#page6-bottom::-webkit-scrollbar{
+    display: none;
+}
+
+#page6-bottom h1{
+    font-size: 6rem;
+    font-family: domaine;
+    font-weight: 100;
+    display: inline-block;
+    /* background-color: #B83C12; */
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    cursor: grabbing;
+}
+
+#page6-bottom h1 span{
+    font-family: canopee;
+    background-color: #262626;
+    color: #c4bcb3;
+    padding: 0 0.8rem;
+    cursor: grabbing;
+
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    /* 50%{
+        transform: translateX(calc(-40% ));
+    } */
+    100%{
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+
+#page6-bottom:hover h1{
+    animation-play-state: paused;
 }
