@@ -557,3 +557,35 @@ html,body{
 #page6-bottom:hover h1{
     animation-play-state: paused;
 }
+
+#footer{
+    font-family: canopee;
+    color: #2c2c2c;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 2.5rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+#footer-left img{
+    height: 1.7rem;
+}
+
+#footer-left h4{
+    font-weight: 100;
+    font-family: editorial;
+}
+
+#footer-right{
+    font-weight: 100;
+}
